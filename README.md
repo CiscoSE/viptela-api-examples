@@ -4,7 +4,8 @@
 Use this program to get a list of certificates on the vManage that have not yet been assigned.  Output provided shows the certificate #, the token, and the chassis number that can be used to provision a vEdge
 
 Example:
-`$ python3 ./get_unassigned_certificates.py '34.23.19.126' 'admin' 'password'
+
+$ python3 ./get_unassigned_certificates.py '34.23.19.126' 'admin' 'password'
 11 1b70ff4c824cf7c4d9934d919fc648fe ec464ea9-ae59-4424-8fac-ea4d7714177f
 12 cc6dd44047218525b4701036a712cee5 6f9267fc-603b-4b50-b97f-a2a5a64bce41
 13 0e2fb27273a8109205779490735f307d ab1bf1b6-079b-4eaf-afa6-56f0922ba272
@@ -16,6 +17,6 @@ Example:
 19 38f3be7a13192bbfdb098fe6a2c65023 7eef7b9c-ff77-493f-ba25-ee5960fbd8cd
 20 17ac4fd65c96e83f9170d5438a4de967 9b59fb07-a2b6-4a1b-ac73-d1774bee4fbe
 21 3ebdabdac1e1a7386c58444529f92351 8a53d0d7-afdd-44fd-aede-78544e461743
-$`
+$
 
 
